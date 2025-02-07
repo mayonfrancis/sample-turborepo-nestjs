@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "node16",
+    "module": "Node16",
     "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
