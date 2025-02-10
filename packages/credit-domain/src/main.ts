@@ -3,10 +3,10 @@ import { AppModule } from "./app.module";
 import { AppService } from "./app.service";
 import { INestApplicationContext } from "@nestjs/common";
 
-export class CreditSdk {
+export class CreditDomain {
   private app: INestApplicationContext;
 
-  private services: AppService;
+  public services: AppService;
 
   constructor() {}
 

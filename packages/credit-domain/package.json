@@ -1,13 +1,13 @@
 {
-  "name": "@mayon-sc-local/credit-sdk",
+  "name": "@mayon-sc-local/credit-domain",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "build": "nest build",
-    "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:prod": "node dist/main"
+    "start": "nest build",
+    "start:dev": "nest start --watch"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
